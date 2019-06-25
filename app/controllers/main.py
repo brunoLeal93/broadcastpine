@@ -9,7 +9,7 @@ n = noticias()
 def home():
     #n.ultimas10()
     #print(n.html)
-    return render_template('Santander.html')
+    return render_template('Pine.html')
 
 @app.route('/teste', methods=('GET', 'POST'))
 def teste():
